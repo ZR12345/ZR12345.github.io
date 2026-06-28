@@ -5,8 +5,7 @@ export default function About() {
       <div className="space-y-4 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
         <p>
           I didn&#x2019;t start out in cryptography. My first real taste of
-          security was digital forensics &#x2014; pulling apart phones and
-          disk images, tracing OTP fraud through network logs, learning how
+          security was digital forensics &#x2014; tracing OTP fraud through network logs, learning how
           much a single timestamp can give someone away. From there I moved
           into web app security, spending time on both sides: breaking things
           in red team exercises, then defending them in blue team ones.
