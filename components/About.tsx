@@ -4,29 +4,34 @@ export default function About() {
       <h2 className="text-3xl font-bold mb-6">About Me</h2>
       <div className="space-y-4 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
         <p>
-          I&#x2019;m an MTech student at NIT Karnataka, currently digging into
-          cryptography and post-quantum security &#x2014; the kind of problems
-          where you&#x2019;re not just writing code, but proving it can&#x2019;t
-          be broken.
+          I didn&#x2019;t start out in cryptography. My first real taste of
+          security was digital forensics &#x2014; pulling apart phones and
+          disk images, tracing OTP fraud through network logs, learning how
+          much a single timestamp can give someone away. From there I moved
+          into web app security, spending time on both sides: breaking things
+          in red team exercises, then defending them in blue team ones.
         </p>
         <p>
-          My current research is on building post-quantum secure authentication
-          for military UAV swarms, using Merkle Patricia Tries to handle things
-          like joins, leaves, and revocations without ever giving up forward or
-          backward secrecy. I verify the protocol three different ways &#x2014;
-          computational proofs, BAN logic, and the Tamarin Prover &#x2014; because
-          one proof catching everything is rarely how security actually works.
+          Somewhere along the way I got pulled toward the harder question
+          underneath all of it &#x2014; not just &#x201C;is this system
+          breakable right now,&#x201D; but &#x201C;will it still hold up once
+          quantum computers change what&#x2019;s breakable.&#x201D; That&#x2019;s
+          what I&#x2019;m doing my MTech research on at NIT Karnataka: post-quantum
+          secure authentication for military UAV swarms.
         </p>
         <p>
-          Outside the thesis, I spend time on web application security, working
-          both sides of the fence: breaking things in red team exercises and
-          defending them in blue team ones. That back-and-forth is honestly
-          where I&#x2019;ve learned the most.
+          In between, I&#x2019;ve ended up building a fairly random mix of
+          things &#x2014; a graph-based recommendation system, an attack-detection
+          system for networked control systems using ODEs and graph theory, a
+          CLIP-based video shot detector, a skin lesion classifier, even
+          middleware for compressing MPI traffic in HPC clusters. None of it
+          was planned as a &#x201C;portfolio&#x201D; &#x2014; I just kept
+          building whatever problem was interesting that semester.
         </p>
         <p>
-          I&#x2019;m generally drawn to problems at the edge of what&#x2019;s
-          practical right now &#x2014; cryptographic systems that have to survive
-          contact with the real world, not just a whiteboard.
+          When I&#x2019;m not doing that, I&#x2019;m usually somewhere on
+          TryHackMe or chasing the next CTF-style challenge &#x2014; old habits
+          from the forensics days that never really went away.
         </p>
       </div>
     </section>
