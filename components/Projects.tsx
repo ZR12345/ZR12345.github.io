@@ -70,7 +70,7 @@ export default function Projects() {
               rel="noopener noreferrer"
               className="text-blue-600 dark:text-blue-400 hover:underline text-sm font-medium"
             >
-              View on GitHub &#x2192;
+              View on GitHub →
             </a>
           </div>
         ))}
@@ -78,5 +78,4 @@ export default function Projects() {
     </section>
   );
 }
-
 
