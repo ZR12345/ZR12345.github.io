@@ -2,6 +2,7 @@ import Link from "next/link";
 import ThemeToggle from "@/components/ThemeToggle";
 
 const navLinks = [
+  { label: "About", href: "/about/" },
   { label: "Research", href: "/research/" },
   { label: "Projects", href: "/projects/" },
   { label: "Experience", href: "/experience/" },
@@ -13,7 +14,7 @@ export default function Navbar() {
       <div className="absolute right-6">
         <ThemeToggle />
       </div>
-      <div className="max-w-5xl mx-auto flex gap-8 pl-16">
+      <div className="max-w-5xl mx-auto flex gap-8 pl-26">
         {navLinks.map((link) => (
           <Link
             key={link.href}
