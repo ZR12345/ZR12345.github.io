@@ -10,10 +10,10 @@ const navLinks = [
 export default function Navbar() {
   return (
     <nav className="relative flex items-center justify-center px-6 py-8 text-base">
-      <div className="absolute left-6">
+      <div className="absolute right-6">
         <ThemeToggle />
       </div>
-      <div className="max-w-5xl mx-auto flex gap-8">
+      <div className="max-w-5xl mx-auto flex gap-8 pl-16">
         {navLinks.map((link) => (
           <Link
             key={link.href}
