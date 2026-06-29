@@ -15,7 +15,9 @@ export default function About() {
           underneath all of it &#x2014; not just &#x201C;is this system
           breakable right now,&#x201D; but &#x201C;will it still hold up once
           quantum computers change what&#x2019;s breakable.&#x201D; That&#x2019;s
-          what I&#x2019;m doing my MTech research on at NIT Karnataka: post-quantum
+          what I&#x2019;m doing my MTech research on at <a href="https://www.nitk.ac.in/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">
+                National Institute of Technology Karnataka, Surathkal
+              </a>: post-quantum
           secure authentication for military UAV swarms.
         </p>
         <p>
@@ -39,6 +41,11 @@ export default function About() {
               </a>
               .
         </p>
+        <img
+          src="/profile.jpg"
+          alt="Zaed Rizwan"
+          className="w-40 h-40 sm:w-44 sm:h-44 rounded-md object-cover flex-shrink-0"
+        />
       </div>
     </section>
   );
