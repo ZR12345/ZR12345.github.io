@@ -1,12 +1,12 @@
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
+import Research from "@/components/Research";
 import Footer from "@/components/Footer";
 
-export default function Home() {
+export default function ResearchPage() {
   return (
     <>
       <Navbar />
-      <Hero />
+      <Research />
       <Footer />
     </>
   );

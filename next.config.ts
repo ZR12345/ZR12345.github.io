@@ -1,5 +1,6 @@
 const nextConfig = {
   output: 'export',
-  images: { unoptimized: true }, // next/image needs a server otherwise
+  images: { unoptimized: true },
+  trailingSlash: true,
 };
 export default nextConfig;
