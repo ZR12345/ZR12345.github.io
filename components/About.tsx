@@ -6,7 +6,7 @@ export default function About() {
           <h1 className="text-3xl font-semibold mb-6 text-gray-900 dark:text-gray-100">
             Zaed Rizwan
           </h1>
-          <div className="space-y-4 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+          <div className="space-y-4 text-base leading-relaxed text-gray-700 dark:text-gray-300">
             <p>
               I&#x2019;m an MTech student in Information Technology at{" "}
               <a href="https://www.nitk.ac.in/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">
