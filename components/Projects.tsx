@@ -33,9 +33,9 @@ const projects = [
 export default function Projects() {
   return (
     <section id="projects" className="max-w-3xl mx-auto px-6 py-12">
-      <h2 className="text-xl font-semibold mb-6 text-gray-900 dark:text-gray-100">
-        Projects
-      </h2>
+      <h2 className="text-2xl font-semibold mb-6 text-gray-900 dark:text-gray-100">
+  Projects
+</h2>
       <div className="space-y-6">
         {projects.map((project) => (
           <div key={project.title}>

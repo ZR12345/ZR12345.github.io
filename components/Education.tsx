@@ -16,15 +16,15 @@ const education = [
 export default function Education() {
   return (
     <section id="education" className="max-w-3xl mx-auto px-6 py-12">
-      <h2 className="text-xl font-semibold mb-6 text-blue-600 dark:text-blue-400">
-        Education
-      </h2>
+      <h2 className="text-2xl font-semibold mb-6 text-gray-900 dark:text-gray-100">
+  Education
+</h2>
       <div className="space-y-8">
         {education.map((item) => (
           <div key={item.institution}>
-            <h3 className="font-medium text-gray-900 dark:text-gray-100">
-              {item.institution}
-            </h3>
+            <h3 className="font-bold text-gray-900 dark:text-gray-100">
+  {item.institution}
+</h3>
             <p className="text-gray-700 dark:text-gray-300">
               {item.degree}
             </p>
