@@ -39,7 +39,7 @@ export default function Projects() {
       <div className="space-y-6">
         {projects.map((project) => (
           <div key={project.title}>
-            
+            <a
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
